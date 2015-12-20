@@ -11,6 +11,7 @@
 		C4C480E81C10A820003D48F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C480E71C10A820003D48F8 /* ViewController.swift */; };
 		C4C480EA1C10A820003D48F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C480E91C10A820003D48F8 /* Assets.xcassets */; };
 		C4C480ED1C10A820003D48F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C480EB1C10A820003D48F8 /* Main.storyboard */; };
+		C4C480F51C10A891003D48F8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C480F41C10A891003D48F8 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C4C480E91C10A820003D48F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C480EC1C10A820003D48F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4C480EE1C10A820003D48F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C480F41C10A891003D48F8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C480F51C10A891003D48F8 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +39,7 @@
 		C4C480D91C10A820003D48F8 = {
 			isa = PBXGroup;
 			children = (
+				C4C480F41C10A891003D48F8 /* CoreBluetooth.framework */,
 				C4C480E41C10A820003D48F8 /* Blimpie */,
 				C4C480E31C10A820003D48F8 /* Products */,
 			);
